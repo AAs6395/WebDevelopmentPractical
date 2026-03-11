@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+<style>
+    body{
+        font-family: sens-serif;
+        margin:0;
+        display:flex;
+        height:100vh;
+    }
+
+    nav{
+   width:200px;
+   display:flex;
+   background-color:#f4f4f4;
+   padding:20px;
+   flex-direction: column;
+   gap:10px;
+
+    }
+    nav a{
+        text-decoration: none;
+        color:#333;
+    padding:5px 0;
+    }
+    main{
+        flex-grow:1;
+     padding:20px;
+    }
+    iframe{
+        height:100%;
+        width:100%;
+        border:1px solid #ccc
+    }
+</style>
+</head>
+<body>
+    <nav>
+        <b>Navigation</b>
+        <a href="https://www.wikipedia.org/"  target="myframe">Wikipedia</a>
+        <a href="https://www.youtube.com/embed/HcOc7P5BMi4?si=hsPRay3KWENZLE1"  target="myframe">YouTube</a>
+        <a href="child.html" target="myframe">Default</a>
+    </nav>
+    <iframe name="myframe" src="about:blank" title="content-page"></iframe>
+</body>
+</html>
