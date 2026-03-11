@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+     #para1{
+        text-align:center;
+        color:green;
+     }
+     .center{
+        text-align:center;
+        color:orange;
+     }
+     p.center{
+          text-align:left;
+        color:red;
+     }
+     p.large{
+       text-align:right;
+        color:blue; 
+     }
+
+     *{
+        text-align:center;
+     }
+     h1,h2,p{
+     
+        color:red;
+     }
+    </style>
+</head>
+<body>
+    <!--Id Selector-->
+    <p id="para1">My name is Aashish Joshi</p>
+    <p>This will not be affected</p>
+
+    <!--Class Selector-->
+    <h1 class="center">Hello I am from Graphic Era</h1>
+    <p>I am a Btech CSE student </p>
+
+    <!--Element + Class Selector-->
+      <h1 class="center">Hello I am from Champawat</h1>
+    <p class="center">I am a Btech CSE 6th sem student </p>
+    
+    <!--Multiple Selector-->
+    <h1 class="center">Hello I am from Champawat</h1>
+    <p class="center">I am a Btech CSE 6th sem student </p>
+    <p class="center large">I am 20 years old</p>
+   
+    <!--Grouping Selector-->
+    <h1>Hello I am from Bhimtal</h1>
+    <h2>Heello I am From New ZEaland</h2>
+    <p> hello i am from kashmir</p>
+</body>
+</html>
+
