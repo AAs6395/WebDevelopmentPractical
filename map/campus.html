@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Interactive Campus Map</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    text-align:center;
+    background:#f0f0f0;
+}
+
+h1{
+    margin-top:20px;
+}
+
+img{
+    width:800px;
+    border:4px solid black;
+}
+</style>
+
+</head>
+<body>
+
+<h1>College Campus Map</h1>
+<p>Click on any building to see its details.</p>
+
+<img src="campus-map.jpg" usemap="#campusmap" alt="Campus Map">
+
+<map name="campusmap">
+
+<!-- Library -->
+<area shape="rect"
+coords="100,120,220,200"
+href="library.html"
+alt="Library">
+
+<!-- Cafeteria -->
+<area shape="rect"
+coords="300,150,420,240"
+href="cafeteria.html"
+alt="Cafeteria">
+
+<!-- Sports Complex -->
+<area shape="rect"
+coords="500,100,650,220"
+href="sports.html"
+alt="Sports Complex">
+
+
+
+</map>
+
+</body>
+</html>
